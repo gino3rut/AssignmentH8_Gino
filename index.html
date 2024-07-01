@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sesi 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f38d3cc82b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                Products
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >My Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Inventory</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container my-4">
+      <!-- Top -->
+      <div class="card py-4">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <i class="fas fa-user-secret fa-7x"></i>
+                </div>
+                <div class="col text-start">
+                  <h4>Muhammad Rohadi</h4>
+                  <p>Fullstack Engineer</p>
+                  <div class="row">
+                    <div class="col">
+                      <button type="button" class="btn btn-primary">
+                        Primary
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn btn-outline-success">
+                        Primary
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="row">
+                <div class="col hstack">
+                  <div class="vr"></div>
+                </div>
+
+                <div class="col-11">
+                  <div class="row">
+                    <div class="col">
+                      <div class="row text-start">
+                        <p class="fw-bold">Availability</p>
+                        <p class="fw-bold">Usia</p>
+                        <p class="fw-bold">Lokasi</p>
+                        <p class="fw-bold">Pengalaman</p>
+                        <p class="fw-bold">Email</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row text-start">
+                        <p>Full Time</p>
+                        <p>17</p>
+                        <p>Jakarta</p>
+                        <p>2 Tahun</p>
+                        <p>mrohadi@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Top -->
+
+      <!-- Bottom -->
+      <div class="card py-4 mt-5">
+        <div class="mb-3 mx-4">
+          <label for="inputName" class="form-label fw-bold">Nama</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputName"
+            placeholder="Your name"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <label for="inputRole" class="form-label fw-bold">Role</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputRole"
+            placeholder="Your role"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <label for="inputAvailability" class="form-label fw-bold"
+            >Availability</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAvailability"
+            placeholder="Your availability"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <label for="inputUsia" class="form-label fw-bold">Usia</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inputAvailability"
+            placeholder="Your age"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <label for="inputLokasi" class="form-label fw-bold">Lokasi</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputLokasi"
+            placeholder="Your location"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <label for="inputExperience" class="form-label fw-bold"
+            >Year Experience</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="inputExperience"
+            placeholder="Your experience"
+          />
+        </div>
+        <div class="mb-3 mx-4">
+          <label for="inputEmail" class="form-label fw-bold">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail"
+            placeholder="Your email"
+          />
+        </div>
+
+        <div class="mb-3 mx-4">
+          <input type="submit" class="form-control btn btn-primary" />
+        </div>
+      </div>
+      <!-- End of Bottom -->
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
